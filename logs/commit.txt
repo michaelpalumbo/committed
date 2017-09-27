@@ -1,3 +1,21 @@
+commit e46dfb04bb16b29ec1a36019d44916df7e60da6b
+Author: michaelpalumbo <emailmichaelpalumbo@gmail.com>
+Date:   Wed Sep 27 18:29:39 2017 -0400
+
+    the command 'git log -p' will spit out all of the diffs from the commit history. this could MAYBE eventually be useful if i wanted to script patches based on the diffs to show the various stages that the patch project underwent during development. but for now, the git log is adding '+' symbols to the start of every line in the patcher json code, which might make it just really annoying to deal with for now
+
+commit 388d99d0976a9d3f05d16b2c6d52a4e151f1b291
+Author: michaelpalumbo <emailmichaelpalumbo@gmail.com>
+Date:   Wed Sep 27 18:21:27 2017 -0400
+
+    moved the commit logs into a /logs folder. need to make sure the max 'text' object knows to look for this in its search path
+
+commit d4d0fb915df0cf0cc38c355b11a003701d43061b
+Author: michaelpalumbo <emailmichaelpalumbo@gmail.com>
+Date:   Wed Sep 27 18:19:55 2017 -0400
+
+    can now load the commit.txt history into max, am working on ways to sort the data for use by a synth.
+
 commit b7cc85b700b3179301ba6291bfa7f8b7a48fc31c
 Author: michaelpalumbo <emailmichaelpalumbo@gmail.com>
 Date:   Wed Sep 27 18:00:45 2017 -0400
