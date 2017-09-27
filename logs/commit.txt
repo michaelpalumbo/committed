@@ -1,3 +1,27 @@
+commit 635550963cadd0c560e8f3bab3e89d39f2ffa334
+Author: michaelpalumbo <emailmichaelpalumbo@gmail.com>
+Date:   Wed Sep 27 19:07:27 2017 -0400
+
+    refactored the text sort to abstraction
+
+commit 6130a5119e5fbcc6c061e62972f42e643cea3ac2
+Author: michaelpalumbo <emailmichaelpalumbo@gmail.com>
+Date:   Wed Sep 27 19:05:00 2017 -0400
+
+    refactored a subpatcher to abstraction
+
+commit 3917503d4ab90f913a89096f98a110cd540957e4
+Author: michaelpalumbo <emailmichaelpalumbo@gmail.com>
+Date:   Wed Sep 27 19:02:12 2017 -0400
+
+    finished building the txt parser. now about to clean up this patch and refactor it as an abstraction called c_text_to_dict
+
+commit 608b1d99226a6ac579966c1434df80a1aba56046
+Author: michaelpalumbo <emailmichaelpalumbo@gmail.com>
+Date:   Wed Sep 27 18:55:23 2017 -0400
+
+    almost finished building the txt parser to dict storage
+
 commit e46dfb04bb16b29ec1a36019d44916df7e60da6b
 Author: michaelpalumbo <emailmichaelpalumbo@gmail.com>
 Date:   Wed Sep 27 18:29:39 2017 -0400
