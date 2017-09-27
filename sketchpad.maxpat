@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-112",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 495.0, 203.0, 150.0, 75.0 ],
+					"style" : "",
+					"text" : "don't want to use seconds in the git log for now, in case this patch skips seconds when querying the dict. "
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-110",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -223,7 +236,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 446.0, 355.0, 304.0, 22.0 ],
+					"patching_rect" : [ 451.0, 355.0, 304.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
