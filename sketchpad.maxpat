@@ -36,7 +36,20 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"boxes" : [  ],
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 228.0, 61.0, 150.0, 103.0 ],
+					"style" : "",
+					"text" : "avoid using subpatchers (use abstractions) so that the git commit history will be verbose (and more for the gource animation and for the synth generative score\""
+				}
+
+			}
+ ],
 		"lines" : [  ],
 		"dependency_cache" : [  ],
 		"autosave" : 0
