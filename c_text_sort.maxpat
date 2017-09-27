@@ -38,6 +38,31 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 292.0, 367.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "initiate the dict.view"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 192.0, 367.0, 100.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-67",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -157,7 +182,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-68",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -171,7 +196,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-69",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -182,6 +207,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-18", 0 ]
@@ -283,30 +315,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "listreg.maxpat",
-				"bootpath" : "~/Documents/Max 7/Library/RTC-lib_71-Win/patchers/Lists/ListObjects_McCartney",
-				"patcherrelativepath" : "../Documents/Max 7/Library/RTC-lib_71-Win/patchers/Lists/ListObjects_McCartney",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "c_date_to_dict.maxpat",
-				"bootpath" : "~/committed",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "month_coll.txt",
-				"bootpath" : "~/committed",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

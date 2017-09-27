@@ -1,3 +1,9 @@
+commit 163dff4f9bab1558e924d4ae5b5311b5db3e677b
+Author: michaelpalumbo <emailmichaelpalumbo@gmail.com>
+Date:   Wed Sep 27 19:13:15 2017 -0400
+
+    working on the autowatch for file changes to commit.txt so that txtparser will automatically reload the file when it changes
+
 commit 635550963cadd0c560e8f3bab3e89d39f2ffa334
 Author: michaelpalumbo <emailmichaelpalumbo@gmail.com>
 Date:   Wed Sep 27 19:07:27 2017 -0400
