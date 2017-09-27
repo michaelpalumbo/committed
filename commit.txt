@@ -1,0 +1,17 @@
+commit b7cc85b700b3179301ba6291bfa7f8b7a48fc31c
+Author: michaelpalumbo <emailmichaelpalumbo@gmail.com>
+Date:   Wed Sep 27 18:00:45 2017 -0400
+
+    just added a note about using abstractions instead of subpatchers
+
+commit c2f9ba573b337d06ca72f1d00fa2638c565b5037
+Author: michaelpalumbo <emailmichaelpalumbo@gmail.com>
+Date:   Wed Sep 27 17:59:22 2017 -0400
+
+    this patch is just to get things started -- i didn't want to commit to having a named patch without knowing its function. but, lets make sure that i don't use subpatches as much as possible so that the gource animation can be verbose
+
+commit 3861ffcc3c5957f936cddd4e704572e54446d709
+Author: Michael Palumbo <michaelpalumbo@users.noreply.github.com>
+Date:   Wed Sep 27 17:54:16 2017 -0400
+
+    Initial commit
