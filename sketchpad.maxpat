@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 708.0, 158.0, 793.0, 603.0 ],
+		"rect" : [ 701.0, 158.0, 793.0, 603.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,32 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 314.0, 21.0, 100.0, 22.0 ],
+					"style" : "",
+					"text" : "receive steve"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 337.0, 69.0, 100.0, 22.0 ],
+					"style" : "",
+					"text" : "receive dave"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-112",
 					"linecount" : 5,
@@ -307,7 +333,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 214.0, 315.0, 100.0, 22.0 ],
 					"style" : "",
 					"text" : "c_text_sort"
